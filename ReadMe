@@ -1,0 +1,9 @@
+To build the docker image, run:
+docker build -t streamlitapp .
+
+To run the docker container, run:
+docker run -p 8501:8501 streamlitapp
+(or alternatively use Docker Desktop)
+
+App can be then viewed here:
+http://localhost:8501
