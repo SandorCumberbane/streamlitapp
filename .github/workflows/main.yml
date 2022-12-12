@@ -19,9 +19,9 @@ jobs:
         # Server address of Docker registry. If not set then will default to Docker Hub
         registry: https://index.docker.io/v1/
         # Username used to log against the Docker registry
-        username: ${{ secrets.dockerhub_username }}
+        username: ${{ secrets.DOCKER_HUB_USERNAME }}
         # Password or personal access token used to log against the Docker registry
-        password:  ${{ secrets.dockerhub_password }}
+        password:  ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
         # Log out from the Docker registry at the end of a job
         logout: false
       
